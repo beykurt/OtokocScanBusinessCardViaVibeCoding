@@ -1,0 +1,25 @@
+# Bağımlılıklar ve derleme çıktıları
+node_modules/
+dist/
+web-build/
+.expo/
+
+# Gizli anahtarlar (Gemini API anahtarı burada)
+.env
+.env*.local
+
+# Herkese açık depoya konmayan kişisel veriler:
+# üçüncü kişilerin kartvizitleri, onları içeren video ve test sonuçları, paylaşım bağlantısı
+docs/ornek-kartvizit-*.jpeg
+docs/test-sonuclari.json
+docs/video-kaynak/real-*.jpg
+docs/video-kaynak/promo.html
+docs/Otokoc-Mobile-Kart-Visit-Tanitim.mp4
+docs/screenshots/iphone-01-demo-modu.png
+docs/artifactlink.txt
+
+# Yerel/IDE
+.vs/
+.vscode/
+*.log
+.DS_Store

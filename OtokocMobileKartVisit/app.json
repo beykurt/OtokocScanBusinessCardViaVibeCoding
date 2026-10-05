@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "Otokoç Mobile Kart Visit",
+    "slug": "otokoc-mobile-kart-visit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "primaryColor": "#F26631",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.otokoc.mobilekartvisit"
+    },
+    "android": {
+      "package": "com.otokoc.mobilekartvisit",
+      "adaptiveIcon": {
+        "backgroundColor": "#F26631",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_CONTACTS",
+        "android.permission.WRITE_CONTACTS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Kartvizitleri okuyabilmek için kameraya erişim gerekiyor.",
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-contacts",
+        {
+          "contactsPermission": "Okunan kartvizitleri Kişiler uygulamasına kaydetmek için rehbere erişim gerekiyor."
+        }
+      ],
+      "expo-font",
+      "expo-status-bar"
+    ],
+    "owner": "burakbeykurts-team",
+    "extra": {
+      "eas": {
+        "projectId": "5d78b77d-9149-4d87-b3b5-98095224eae0"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5d78b77d-9149-4d87-b3b5-98095224eae0"
+    }
+  }
+}
